@@ -6,7 +6,7 @@ dotenv.config();
 import connectDB from './config/db.js';
 import productRoutes from './routes/ProductRoutes.js'
 import userRoutes from './routes/userRoutes.js';
-import orderRoutes from "./routes/OrderRoutes.js";
+import orderRoutes from "./routes/orderRoutes.js";
 import uploadRoutes from './routes/uploadRoutes.js'
 import { notFound,errorHandler } from './middleware/errorMiddleware.js';
 const port = process.env.PORT;
